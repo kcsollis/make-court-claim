@@ -1,0 +1,187 @@
+{% extends "layouts/govuk-template.html" %}
+
+{% block pageTitle %}
+Make a court claim for money – {{ serviceName }} – GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-width-container">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-full">
+        <form action="submit-your-appeal" method="post">
+        
+          <h1 class="govuk-heading-xl">Make a court claim for money</h1>
+          <p class="govuk-body">Contents</p>
+          <ul class="govuk-list">
+            <li>
+                - <a class="govuk-link govuk-link--no-visited-state" href="gov-uk">What a court claim is</a>
+            </li>
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="court-fees.html">Court fees</a>
+            </li>
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="claim-the-interest.html">Claim the interest</a>
+            </li>
+            <li>
+              - Make a claim</a>
+            </li>
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="after-you-make-your-claim.html">After you make your claim</a>
+            </li>
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="what-happens-at-the-hearing.html">What happens at the hearing</a>
+            </li>
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="enforce-a-judgement.html">Enforce a judgment</a>
+            </li>
+          </ul>
+        </div>
+        <div class="govuk-grid-column-two-thirds">
+          <hr>
+          <h1 class="gem-c-heading govuk-heading-l govuk-!-margin-bottom-6">Make a claim</h1>
+          
+          <p class="govuk-body">You can make your claim online, unless:</p>
+           <ul class="govuk-list govuk-list--bullet">
+           <li>you do not know how much money you want to claim </li>
+           <li>your claim is for more than £10,000 and you want to get help to pay the <a class="govuk-link govuk-link--no-visited-state" href="court-fees.html">court fee</a> </li>
+           <li>your claim is for £100,000 or over </li>
+           </ul>
+
+           <p>Claim by post if you cannot claim online. </p>
+
+           <div class="govuk-inset-text">
+           <p>You cannot make a claim if you’re told that someone is temporarily protected from creditors through the ‘Breathing Space’ scheme. Find out <a rel="external" href="https://www.gov.uk/guidance/debt-respite-breathing-space-scheme-creditors-responsibilities-to-the-court">what to do when someone is using the ‘Breathing Space’ scheme.</a> </p>
+        </div>
+
+        <h2 class="govuk-heading-m">Claim online</h2>
+
+        <p>You’ll be asked for the name, address and email address of the person you’re claiming against. </p>
+
+        <p class="govuk-body">You'll also need either:</p>
+            <ul class="govuk-list govuk-list--bullet">
+            <li>a debit or credit card to pay the <a class="govuk-link govuk-link--no-visited-state" href="court-fees.html">court fee</a></li>
+            <li>your ‘help with fees’ reference number if you’ve already <a rel="external" href="https://www.gov.uk/get-help-with-court-fees">applied for help with fees online</a> </li>
+            </ul>
+
+            <p>If you still need to apply for help with fees, you can do this while you make your money claim online.</p>
+
+            <a class="gem-c-button govuk-button govuk-button--start" role="button" data-module="govuk-button" draggable="false" href="https://www.moneyclaims.service.gov.uk/make-claim" data-govuk-button-module-started="true"> Make a money claim <svg class="govuk-button__start-icon govuk-!-display-none-print" xmlns="http://www.w3.org/2000/svg" width="17.5" height="19" viewBox="0 0 33 40" focusable="false" aria-hidden="true"><path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z"></path></svg></a>
+               
+            <h2 class="govuk-heading-m">If you need help claiming online</h2>
+
+            <p class="govuk-body">There are 2 types of help available. You can get help if:</p>
+            <ul class="govuk-list govuk-list--bullet">
+            <li>you’re able to claim online and there’s a problem - for example a technical issue or you need guidance</li>
+            <li>you need support to claim online - for example you’re not confident using the internet</li>
+            </ul>
+
+            <h3 class="govuk-heading-s">If there’s a problem claiming online</h3>
+
+            <p class="govuk-body">You can get help if you:</p>
+            <ul class="govuk-list govuk-list--bullet">
+            <li>are having technical issues with the service</li>
+            <li>need guidance about the information you’re providing</li>
+            </ul>
+
+            <p>The phone number or email address you use depends on how much money you’re claiming. </p>
+
+            <p>If you need help claiming £10,000 or less, contact Civil Money Claims.</p>
+
+            <div class="govuk-inset-text">
+                Civil Money Claims<br> 
+                Telephone: 0300 123 7050<br> 
+                Monday to Friday, 8:30am to 5pm<br>
+                <a rel="external" href="https://www.gov.uk/call-charges">Find out about call charges</a> </p></div>
+
+            <p>If you need help claiming between £10,000 and £100,000, contact Money Claim Online.</p>
+
+            <div class="govuk-inset-text">
+                    Money Claim Online<br>
+                    ccbc@justice.gov.uk<br>
+                    Telephone: 0300 123 1057<br> 
+                    Monday to Friday, 8:30am to 5pm<br>
+                    <a rel="external" href="https://www.gov.uk/call-charges">Find out about call charges</a> </p></div>
+
+        <h3 class="govuk-heading-s">If you need support to claim online</h3>
+
+        <p class="govuk-body">You can phone the Digital Support helpline if you:</p>
+                <ul class="govuk-list govuk-list--bullet">
+                <li>do not feel confident using the internet</li>
+                <li>do not have access to a computer or smartphone</li>
+                </ul>
+
+                <div class="govuk-inset-text">
+                    Digital Support Helpline<br>
+                    Telephone: 03300 160051<br>
+                    Monday to Friday, 9am to 5pm<br> 
+                    Closed on bank holidays<br>
+                    Text FORM to 60777 and someone will call you back<br>
+                    <a rel="external" href="https://www.gov.uk/call-charges">Find out about call charges</a> </p></div>
+
+        <h2 class="govuk-heading-m">Claim by post</h2>
+        <p>To claim by post, download and fill in a <a rel="external" href="https://www.gov.uk/government/publications/form-n1-claim-form-cpr-part-7"> paper claim form N1.</a></p>
+        <p><a rel="external" href="https://www.gov.uk/government/publications/form-n1-claim-form-cpr-part-7"> Paper claim form N1</a> is also available in Welsh.</p>
+
+        <p class="govuk-body">Send the paper form to the Civil National Business Centre with a cheque or postal order for your <a class="govuk-link govuk-link--no-visited-state" href="court-fees.html">court fee</a>. If you’re <a rel="external" href="https://www.gov.uk/get-help-with-court-fees">applying for help with fees</a> send the paper form with either:</p>
+        <ul class="govuk-list govuk-list--bullet">
+        <li>the ‘help with fees’ reference number you’ll get when you apply for help online</li>
+        <li>your completed ‘help with fees’ application form, if you’re applying for help by post</li>
+        </ul>
+
+        <div class="govuk-inset-text">
+            Civil National Business Centre <br>
+            St Katharine’s House <br>
+            21-27 St Katharine’s Street<br> 
+            Northampton<br>
+            NN1 2LH<br>
+            <a rel="external" href="https://www.gov.uk/call-charges">Find out about call charges</a> </p></div>
+
+            <h2 class="govuk-heading-s">Help claiming by post</h2>
+
+            <p>Contact the Civil national Business Centre</p>
+
+            <div class="govuk-inset-text">
+                Civil National Business Centre <br>
+                Telephone: 0300 123 1372<br>
+                Monday to Friday, 8:30am to 5pm  <br> 
+                Welsh language: 0300 303 5174 <br>
+                Monday to Friday, 9am to 5pm <br>
+                <a rel="external" href="https://www.gov.uk/call-charges">Find out about call charges</a> </p></div>    
+
+        <h2 class="govuk-heading-m">Return to an existing claim</h2>
+
+        <p>If your online claim is for £10,000 or less, <a rel="external" href="https://www.moneyclaims.service.gov.uk/enter-claim-number">you can sign in to your account</a> to check updates, manage a claim or make a new claim.</p>
+
+          <a class="govuk-link--no-visited-state" href="claim-the-interest.html">
+            <h3 class="govuk-link govuk-!-margin-top-4">Previous</h3>
+            <p class="govuk-link-blue">Claim the interest</p>
+          </a>
+
+          <a class="govuk-link--no-visited-state" href="after-you-make-your-claim.html">
+            <h3 class="govuk-link govuk-link--no-visited-state">Next</h3>
+            <p class="govuk-link-blue">After you make your claim</p>
+          </a>
+
+        </form>
+
+    </div>
+
+    <div class="govuk-grid-column-one-third">
+      <hr class="related-content-line">
+      <h4 class="govuk-heading-s">Related content</h4>
+      <a class="govuk-link govuk-link--no-visited-state" href="#">What to expect coming to a court or tribunal</a>
+      
+</div>
+
+<style>
+  .govuk-link-blue {
+    color: #1D70B8;
+  }
+
+  .related-content-line {
+    border: solid 1px #1D70B8;
+  }
+</style>
+
+{% endblock %}

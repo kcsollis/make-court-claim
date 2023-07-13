@@ -1,0 +1,151 @@
+{% extends "layouts/govuk-template.html" %}
+
+{% block pageTitle %}
+Make a court claim for money – {{ serviceName }} – GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-width-container">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-full">
+        <form action="submit-your-appeal" method="post">
+        
+          <h1 class="govuk-heading-xl">Make a court claim for money</h1>
+          <p class="govuk-body">Contents</p>
+          <ul class="govuk-list">
+            <li>
+                - <a class="govuk-link govuk-link--no-visited-state" href="gov-uk">What a court claim is</a>
+            </li>
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="court-fees.html">Court fees</a>
+            </li>
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="claim-the-interest.html">Claim the interest</a>
+            </li>
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="make-a-claim.html">Make a claim</a>
+            </li>
+            <li>
+              - After you make your claim</a>
+            </li>
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="what-happens-at-the-hearing.html">What happens at the hearing</a>
+            </li>
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="enforce-a-judgement.html">Enforce a judgment</a>
+            </li>
+          </ul>
+        </div>
+        <div class="govuk-grid-column-two-thirds">
+          <hr>
+          <h1 class="gem-c-heading govuk-heading-l govuk-!-margin-bottom-6">After you make your claim</h1>
+          
+          <p>Your claim, including your name and address, will be sent to the person or business owing you money (the ‘defendant’).</p>
+          <p>They must respond to your claim. You’ll be sent a letter or email telling you the date they need to respond by.</p>
+
+          <h2 class="govuk-heading-m">What to do if you get paid</h2>
+
+          <p>Tell the defendant when you’ve received their payment.</p>
+          <p>How you do this depends on how you made the claim.</p>
+
+          <h3 class="govuk-heading-s">If you claimed online</h3>
+
+          <p class="govuk-body">You can update your claim:</p>
+            <ul class="govuk-list govuk-list--bullet">
+            <li>online using the <a rel="external" href="https://www.moneyclaims.service.gov.uk/enter-claim-number">Money Claims Service - if your claim is for £10,000 or less</a></li>
+            <li>online using the <a rel="external" href="https://www.moneyclaim.gov.uk/web/mcol/welcome">Money Claim Online service - if your claim is between £10,000 and £100,000</a></li>
+            <li>by calling or emailing - the contact details you use depend on how much money you’re claiming</li>
+            </ul>
+
+            <p>If your claim is for £10,000 or less, contact Civil Money Claims.</p>
+
+          <div class="govuk-inset-text">
+            <p>Civil Money Claims<br> 
+              Telephone: 0300 123 7050<br> 
+              Monday to Friday, 8:30am to 5pm<br> 
+              <a rel="external" href="https://www.gov.uk/call-charges">Find out about call charges</a> </p>
+          </div>
+
+          <p>If your claim is for between £10,000 and £100,000, contact Money Claim Online.</p>
+          
+          <div class="govuk-inset-text">
+            <p>Money Claim Online<br>
+              ccbc@justice.gov.uk<br> 
+              Telephone: 0300 123 1057<br> 
+              Monday to Friday, 8:30am to 5pm<br> 
+              <a rel="external" href="https://www.gov.uk/call-charges">Find out about call charges</a> </p>
+          </div>
+
+          <h3 class="govuk-heading-s">If you used a paper claim form</h3>
+
+          <p><a rel="external" href="https://courttribunalfinder.service.gov.uk/search/">Contact the court</a> where you sent your claim.</p>
+
+          <h2 class="govuk-heading-m">If you get no response or the defendant refuses to pay what they owe</h2>
+
+          <p class="govuk-body">You can ask the court to order the defendant to pay. You need to:</p>
+          <ul class="govuk-list govuk-list--bullet">
+          <li><a rel="external" href="https://www.moneyclaims.service.gov.uk/return-to-claim">request a judgement</a> if you made your claim online</li>
+          <li><a rel="external" href="https://www.gov.uk/government/publications/form-n225-request-for-judgment-and-reply-to-admission-specified-amount">use request for judgment form N225</a> if you claimed a fixed (‘specified’) amount using a claim form </li>
+          <li><a rel="external" href="https://www.gov.uk/government/publications/form-n227-request-for-judgment-by-default-amount-to-be-decided-by-the-court">use request for judgment form N227 </a> if you claimed an unspecified amount using a claim form </li>
+          </ul>
+
+          <h2 class="govuk-heading-m">If you disagree with the response</h2>
+
+          <p class="govuk-body">You might have to go to a court hearing if:</p>
+            <ul class="govuk-list govuk-list--bullet">
+            <li>the defendant says they do not owe you any money</li>
+            <li>they disagree with the amount you’ve claimed</li>
+            <li>you do not agree with how they’ve offered to repay you</li>
+            <li>you have been for mediation but it’s been unsuccessful</li>
+            <li>the defendant refuses to engage in mediation</li>
+            </ul>
+
+            <p>The court may send you a questionnaire asking for more information on the case.</p>
+
+            <p>Fill in the questionnaire and return it to the court. You’ll have to pay an extra <a class="govuk-link govuk-link--no-visited-state" href="court-fees.html">court fee.</a></p> 
+
+            <h2 class="govuk-heading-m">Mediation</h2>
+
+            <p>You may be offered <a rel="external" href="https://www.gov.uk/guidance/small-claims-mediation-service">mediation after you’ve made a claim.</a> This is often quicker than going to court.</p> 
+
+            <p>If both sides agree to mediation, a mediator from HM Courts and Tribunal Service will speak to each party separately by phone to help you to explore options, negotiate and agree a settlement.</p> 
+
+            <p>This service is free.</p>
+            
+            <div class="govuk-inset-text">
+              The judge might not award you costs if they think you’ve made no effort to agree out of court.
+            </div>
+
+          <a class="govuk-link--no-visited-state" href="make-a-claim.html">
+            <h3 class="govuk-link govuk-!-margin-top-4">Previous</h3>
+            <p class="govuk-link-blue">Make a claim</p>
+          </a>
+
+          <a class="govuk-link--no-visited-state" href="what-happens-at-the-hearing.html">
+            <h3 class="govuk-link govuk-link--no-visited-state">Next</h3>
+            <p class="govuk-link-blue">What happens at the hearing</p>
+          </a>
+
+        </form>
+
+    </div>
+
+    <div class="govuk-grid-column-one-third">
+      <hr class="related-content-line">
+      <h4 class="govuk-heading-s">Related content</h4>
+      <a class="govuk-link govuk-link--no-visited-state" href="#">What to expect coming to a court or tribunal</a>
+      
+</div>
+
+<style>
+  .govuk-link-blue {
+    color: #1D70B8;
+  }
+
+  .related-content-line {
+    border: solid 1px #1D70B8;
+  }
+</style>
+
+{% endblock %}

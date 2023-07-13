@@ -1,0 +1,196 @@
+{% extends "layouts/govuk-template.html" %}
+
+{% block pageTitle %}
+Make a court claim for money – {{ serviceName }} – GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-width-container">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-full">
+        
+          <h1 class="govuk-heading-xl">Make a court claim for money</h1>
+          <p class="govuk-body">Contents</p>
+          <ul class="govuk-list">
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="gov-uk">What a court claim is</a>
+            </li>
+            <li>
+              - Court fees
+            </li>
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="claim-the-interest.html">Claim the interest</a>
+            </li>
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="make-a-claim.html">Make a claim</a>
+            </li>
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="after-you-make-your-claim.html">After you make your claim</a>
+            </li>
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="what-happens-at-the-hearing.html">What happens at the hearing</a>
+            </li>
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="enforce-a-judgement.html">Enforce a judgment</a>
+            </li>
+          </ul>
+        </div>
+        <div class="govuk-grid-column-two-thirds">
+          <hr>
+          <h1 class="gem-c-heading govuk-heading-l govuk-!-margin-bottom-6">Court fees</h1>
+
+          <p class="govuk-body">You must pay a court fee once you make your claim. This is separate to a court hearing fee. </p>
+
+          <h2 class="govuk-heading-m">If you know the claim amount</h2>
+
+          <p>The court fee is based on the amount you’re claiming, plus <a class="govuk-link govuk-link--no-visited-state" href="claim-the-interest.html">any interest</a>
+
+          <table class="govuk-table">
+            <thead class="govuk-table__head ">
+              <tr class="govuk-table__row">
+                <th scope="col" class="govuk-table__header ">Claim Amount</th>
+                
+                <th scope="col" class="govuk-table__header">Fees</th>
+              </tr>
+            </thead>
+            <tbody class="govuk-table__body">
+              <tr class="govuk-table__row">
+                <th scope="row" class="govuk-table__header">Up to £300</th>
+                <td class="govuk-table__cell">£35</td>
+              </tr>
+              <tr class="govuk-table__row">
+                <th scope="row" class="govuk-table__header">£300.01 to £500</th>
+                <td class="govuk-table__cell">£50</td>
+              </tr>
+              <tr class="govuk-table__row">
+                <th scope="row" class="govuk-table__header">£500.01 to £1,000</th>
+                <td class="govuk-table__cell">£70</td>
+              </tr>
+              <tr class="govuk-table__row">
+                <th scope="row" class="govuk-table__header">£1,000.01 to £1,500</th>
+                <td class="govuk-table__cell">£80</td>
+              </tr>
+              <tr class="govuk-table__row">
+                <th scope="row" class="govuk-table__header">£1,500.01 to £3,000</th>
+                <td class="govuk-table__cell">£115</td>
+              </tr>
+              <tr class="govuk-table__row">
+                <th scope="row" class="govuk-table__header">£3,000.01 to £5,000</th>
+                <td class="govuk-table__cell">£205</td>
+              </tr>
+              <tr class="govuk-table__row">
+                <th scope="row" class="govuk-table__header">£5,000.01 to £10,000</th>
+                <td class="govuk-table__cell">£455</td>
+              </tr>
+              <tr class="govuk-table__row">
+                <th scope="row" class="govuk-table__header">£10,000.01 to £200,000</th>
+                <td class="govuk-table__cell">5% of the claim </td>
+              </tr>
+              <tr class="govuk-table__row">
+                <th scope="row" class="govuk-table__header">More than £200,000 </th>
+                <td class="govuk-table__cell">£10,000</td>
+              </tr>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>To calculate 5% of the value of the claim, take the amount you’re claiming and multiply it by 0.05. If necessary, round down the result to the nearest 1 pence.</p>
+
+          <p>The fee will be calculated for you if you make your claim online.</p>
+
+          <h2 class="govuk-heading-m">If you do not know the claim amount</h2>
+
+          <p>Use the paper claim form if you do not know the exact amount - you cannot make a claim online.</p>
+
+          <p>You’ll need to estimate the amount you’re claiming and pay the fee for that amount.</p>
+
+          <p>For example, if you estimate you’re claiming between £3,000.01 and £5,000, you’d have to pay £205.</p>
+
+          <div role="note" aria-label="Information" class="application-notice info-notice">
+            
+            <div class="govuk-inset-text">
+              If you leave the ‘amount claimed’ blank, the fee is £10,000.
+            </div>
+
+          <h2 class="govuk-heading-m">Get help to pay the fee</h2>
+
+          <p>You may be able to get help with fees if you have a low income or you’re on certain benefits. Find out who can <a href="https://www.gov.uk/get-help-with-court-fees">apply for help with fees</a>.</p>
+
+          <p>You can apply for help with fees online or by post.</p>
+
+          <h3 class="govuk-heading-s">Apply for help online</h3>
+
+          <p><a href="https://www.gov.uk/get-help-with-court-fees">Apply for help with fees</a> online before you make a court claim. You’ll get a ‘help with fees’ reference number - you’ll need this when you <a class="govuk-link govuk-link--no-visited-state" href="make-a-claim.html">make your court claim</a>.</p>
+
+          <h3 class="govuk-heading-s">Apply for help by post</h3>
+
+          <p>If you apply for help with fees by post, you’ll need to make your court claim by post too. Apply for both at the same time.</p>
+
+          <ol  class="govuk-list govuk-list--number">
+            <li>
+            <p><a href="https://www.gov.uk/government/publications/apply-for-help-with-court-and-tribunal-fees">Fill in form EX160</a> for help with fees.</p>
+            </li>
+            <li>
+            <p><a href="https://www.gov.uk/government/publications/form-n1-claim-form-cpr-part-7">Fill in form N1</a> to make a court claim for money.</p>
+            </li>
+            <li>
+            <p>Return both forms to the Civil National Business Centre.</p>
+            </li>
+            </ol>
+
+            <div class="govuk-inset-text">
+              <p>
+                Civil National Business Centre 
+                <br>St Katharine’s House  
+                <br>21-27 St Katharine’s Street  
+                <br>Northampton  
+                <br>NN1 2LH  
+                <br>
+                </p>
+            </div>
+
+          <h2 class="govuk-heading-m">Pay the court fee</h2>
+
+          <p>Pay by credit or debit card if you’re making a claim online.</p>
+
+          <p>If you use the paper claim form, pay by credit or debit card by sending a letter with your form asking to pay by card. Include your telephone number and a suitable time for the court to call you and take the payment.</p>
+
+          <p>You can also pay by postal order or cheque (payable to ‘HM Courts and Tribunals Service’) if you use the paper claim form.</p>
+
+          <div class="govuk-inset-text">
+            <p>You may have to pay more fees later on - for example, if there’s a court hearing or you need to get a judgment enforced.</p>
+            </div>
+
+            <p>You may be able to claim the fees back if you win the case.</p>
+
+            <div class="gem-c-govspeak govuk-govspeak direction-ltr disable-youtube" data-module="govspeak" data-govspeak-module-started="true">
+    
+
+      
+      </div>
+
+          <a class="govuk-link--no-visited-state" href="gov-uk">
+            <h3 class="govuk-link govuk-!-margin-top-4">Previous</h3>
+            <p class="govuk-link-blue">What a court claim is</p>
+          </a>
+          <hr>
+          <a class="govuk-link--no-visited-state" href="claim-the-interest.html">
+            <h3 class="govuk-link">Next</h3>
+            <p class="govuk-link-blue">Claim the interest</p>
+          </a>
+
+        </form>
+     </div>
+
+<style>
+  .govuk-link-blue {
+    color: #1D70B8;
+  }
+
+  .related-content-line {
+    border: solid 1px #1D70B8;
+  }
+</style>
+
+{% endblock %}

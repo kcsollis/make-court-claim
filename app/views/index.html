@@ -1,0 +1,35 @@
+{% extends "layouts/main.html" %}
+
+{% block pageTitle %}
+Home – {{serviceName}} – GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+    <!-- {% include "govuk-prototype-kit/includes/homepage-top.njk" %} -->
+
+    <h1 class="govuk-heading-xl">
+      {{ serviceName }}
+    </h1>
+
+    <h2 class="govuk-heading-l">Prototypes</h2>
+
+    <dl class="govuk-summary-list">
+      <div class="govuk-summary-list__row">
+       <dd class="govuk-summary-list__value">
+          February 2023
+        </dd>
+        <dd class="govuk-summary-list__value">
+         <a class="govuk-link--no-visited-state" href="live-service/gov-uk"> Live service</a>
+        </dd>
+      </div>
+    </dl>
+
+    <!-- {% include "govuk-prototype-kit/includes/homepage-bottom.njk" %} -->
+  </div>
+</div>
+
+{% endblock %}

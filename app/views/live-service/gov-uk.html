@@ -1,0 +1,100 @@
+{% extends "layouts/govuk-template.html" %}
+
+{% block pageTitle %}
+Make a court claim for money – {{ serviceName }} – GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-width-container">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-full">
+        <form action="submit-your-appeal" method="post">
+        
+          <h1 class="govuk-heading-xl">Make a court claim for money</h1>
+          <p class="govuk-body">Contents</p>
+          <ul class="govuk-list">
+            <li>
+              - What a court claim is
+            </li>
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="court-fees.html">Court fees</a>
+            </li>
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="claim-the-interest.html">Claim the interest</a>
+            </li>
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="make-a-claim.html">Make a claim</a>
+            </li>
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="after-you-make-your-claim.html">After you make your claim</a>
+            </li>
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="what-happens-at-the-hearing.html">What happens at the hearing</a>
+            </li>
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="enforce-a-judgement.html">Enforce a judgment</a>
+            </li>
+          </ul>
+        </div>
+        <div class="govuk-grid-column-two-thirds">
+          <hr>
+          <h1 class="gem-c-heading govuk-heading-l govuk-!-margin-bottom-6">What a court claim is</h1>
+          
+          <p class="govuk-body">You can apply to a county court to claim money you’re owed by a person or business. </p>
+
+          <p class="'govuk-body">This is known as making a court claim. It often used to be known as taking someone to a ‘small claims court’. You can apply online or by post.  </p>
+
+          <div class="govuk-inset-text">
+            <p>There’s a different process to <a rel="external" href="https://www.mygov.scot/court-claim-money/">make a court claim in Scotland</a> and to <a rel="external" href="https://www.nidirect.gov.uk/articles/recover-debts-owed-you">make a court claim in Northern Ireland</a>.</p>
+          </div>
+
+          <h2 class="govuk-heading-m">Claiming £10,000 or less</h2>
+          <p class="govuk-body"> For claims of £10,000 or less, you must accept mediation first. Mediation is free for such claims and is quicker than going to court. If mediation is unsuccessful the case can then go for a court hearing.</p>
+          
+          <h2 class="govuk-heading-m">Mediation</h2>
+          <p class="govuk-body">You can use a mediation service, which is where an independent and impartial person helps both sides to reach an agreement. </p>
+
+          <p class="govuk-body"> If both sides agree to mediation, a mediator from HM Courts and Tribunal Service will speak to each party separately by phone to help you to explore options, negotiate and agree a settlement. </p>
+            
+          <div class="govuk-inset-text">
+            The judge might not award you costs if they think you’ve made no effort to agree out of court. 
+          </div>
+
+            
+          <p class="govuk-body"> There are 2 ways you can arrange for mediation: </p>
+
+            <ol class="govuk-list govuk-list--number">
+              <li>You can book <a rel="external" href="https://civilmediation.org/mediator-search/"></a>an independent mediator.</a> There is a fixed fee for this service but as the dispute may be settled out of court, there will be no court fees to pay.</li>
+              <li>You can make an initial court claim for which there is a fee. You can then access free mediation, which is mandatory for claims of £10,000 or less. For claims over £10,000 mediation is optional and has a fixed fee system.</li>
+            </ol>
+
+            <p class="govuk-body">Mediation is usually quicker and cheaper than going to court. Find out more about the civil mediation service </p>
+
+          <a class="govuk-link--no-visited-state" href="court-fees.html">
+            <h3 class="govuk-link govuk-link--no-visited-state">Next</h3>
+            <p class="govuk-link-blue">Court fees</p>
+          </a>
+
+        </form>
+
+    </div>
+
+    <div class="govuk-grid-column-one-third">
+      <hr class="related-content-line">
+      <h4 class="govuk-heading-s">Related content</h4>
+      <a class="govuk-link govuk-link--no-visited-state" href="#">What to expect coming to a court or tribunal</a>
+      
+</div>
+
+<style>
+  .govuk-link-blue {
+    color: #1D70B8;
+  }
+
+  .related-content-line {
+    border: solid 1px #1D70B8;
+  }
+</style>
+
+{% endblock %}

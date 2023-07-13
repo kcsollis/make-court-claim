@@ -1,0 +1,112 @@
+{% extends "layouts/govuk-template.html" %}
+
+{% block pageTitle %}
+Make a court claim for money – {{ serviceName }} – GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-width-container">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-full">
+        
+          <h1 class="govuk-heading-xl">Make a court claim for money</h1>
+          <p class="govuk-body">Contents</p>
+          <ul class="govuk-list">
+            <li>
+              - <a class="govuk-link govuk-link--no-visited-state" href="gov-uk">What a court claim is</a>
+            </li>
+            <li>
+                - <a class="govuk-link govuk-link--no-visited-state" href="court-fees.html">Court fees</a>
+            </li>
+            <li>
+              - Claim the interest
+            </li>
+            <li>
+                - <a class="govuk-link govuk-link--no-visited-state" href="make-a-claim.html">Make a claim</a>
+              </li>
+              <li>
+                - <a class="govuk-link govuk-link--no-visited-state" href="after-you-make-your-claim.html">After you make your claim</a>
+              </li>
+              <li>
+                - <a class="govuk-link govuk-link--no-visited-state" href="what-happens-at-the-hearing.html">What happens at the hearing</a>
+              </li>
+              <li>
+                - <a class="govuk-link govuk-link--no-visited-state" href="enforce-a-judgement.html">Enforce a judgment</a>
+              </li>
+          </ul>
+        </div>
+        <div class="govuk-grid-column-two-thirds">
+          <hr>
+          <h1 class="gem-c-heading govuk-heading-l govuk-!-margin-bottom-6">Claim the interest</h1>
+
+            <p>You can claim interest on the money you’re owed.</p>
+
+            <p>interest will be calculated for you if you claim for an unspecified amount.</p>
+
+            <p>You need to work out the interest yourself if you’re claiming for a fixed (‘specified’) amount of money.</p>
+
+          <h2 class="govuk-heading-m">Work out the interest</h2>
+
+          <p>If you’re owed money by another business, you can charge interest on <a href="https://www.gov.uk/late-commercial-payments-interest-debt-recovery/charging-interest-commercial-debt">a late commercial payment.</a></p>
+
+          <p>For other types of debt, the rate is usually 8%.</p>
+
+          <p>To calculate this, use the steps below.</p>
+
+          <ol  class="govuk-list govuk-list--number">
+            <li>
+            <p>Work out the yearly interest: take the amount you’re claiming and multiply it by 0.08 (which is 8%).</p>
+            </li>
+            <li>
+            <p>Work out the daily interest: divide your yearly interest from step 1 by 365 (the number of days in a year).</p>
+            </li>
+            <li>
+            <p>Work out the total amount of interest: multiply the daily interest from step 2 by the number of days the debt has been overdue.</p>
+            </li>
+            </ol>
+
+            <div class="govuk-inset-text">
+
+                     <h4 class="govuk-heading-s">Example</h4>
+                     <p>If you were owed £1,000:</p>
+                    <ul class="govuk-list govuk-list--bullet">
+                    <li>the annual interest would be £80 (1000 x 0.08 = 80)</li>
+                    <li>you’d divide £80 by 365 to get the daily interest: about 22p a day (80 / 365 = 0.22)</li>
+                    <li>50 days this would be £11 (50 x 0.22 = 11)</li>
+                    </ul>
+
+                </div>
+          
+              <a class="govuk-link--no-visited-state" href="court-fees.html">
+                <h3 class="govuk-link govuk-!-margin-top-4">Previous</h3>
+                <p class="govuk-link-blue">Court fees</p>
+              </a>
+          
+              <a class="govuk-link--no-visited-state" href="make-a-claim.html">
+            <h3 class="govuk-link govuk-link--no-visited-state">Next</h3>
+            <p class="govuk-link-blue">Make a claim</p>
+          </a>
+
+        </form>
+
+    </div>
+
+    <div class="govuk-grid-column-one-third">
+      <hr class="related-content-line">
+      <h4 class="govuk-heading-s">Related content</h4>
+      <a class="govuk-link govuk-link--no-visited-state" href="#">What to expect coming to a court or tribunal</a>
+      
+</div>
+
+<style>
+  .govuk-link-blue {
+    color: #1D70B8;
+  }
+
+  .related-content-line {
+    border: solid 1px #1D70B8;
+  }
+</style>
+
+{% endblock %}
